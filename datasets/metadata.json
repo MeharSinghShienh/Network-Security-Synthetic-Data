@@ -1,0 +1,56 @@
+{
+    "tables": {
+        "train": {
+            "columns": {
+                "IPV4_SRC_ADDR": {
+                    "sdtype": "ipv4_address",
+                    "pii": true
+                },
+                "L4_SRC_PORT": {
+                    "sdtype": "numerical",
+                    "computer_representation": "UInt16"
+                },
+                "IPV4_DST_ADDR": {
+                    "sdtype": "ipv4_address",
+                    "pii": true
+                },
+                "L4_DST_PORT": {
+                    "sdtype": "numerical",
+                    "computer_representation": "UInt16"
+                },
+                "PROTOCOL": {
+                    "sdtype": "categorical"
+                },
+                "L7_PROTO": {
+                    "sdtype": "categorical"
+                },
+                "IN_BYTES": {
+                    "sdtype": "numerical"
+                },
+                "OUT_BYTES": {
+                    "sdtype": "numerical"
+                },
+                "IN_PKTS": {
+                    "sdtype": "numerical"
+                },
+                "OUT_PKTS": {
+                    "sdtype": "numerical"
+                },
+                "TCP_FLAGS": {
+                    "sdtype": "categorical"
+                },
+                "FLOW_DURATION_MILLISECONDS": {
+                    "sdtype": "numerical"
+                },
+                "Label": {
+                    "sdtype": "categorical"
+                },
+                "Attack": {
+                    "sdtype": "categorical"
+                }
+            }
+        }
+    },
+    "relationships": [],
+    "METADATA_SPEC_VERSION": "V1"
+}

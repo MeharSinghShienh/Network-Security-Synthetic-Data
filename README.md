@@ -11,19 +11,19 @@ Gaussian Copula |96.30%  |96.44%   |96.30%|94.53%  |
 |            |Predicted 0|Predicted 1|
 -------------|-----------|------------
 |**Actual 0**|1909       |16         |
-|**Actual 0**|7          |68         |
+|**Actual 1**|7          |68         |
 
 ### CTGAN Data
 |            |Predicted 0|Predicted 1|
 -------------|-----------|------------
 |**Actual 0**|1871       |54         |
-|**Actual 0**|31         |44         |
+|**Actual 1**|31         |44         |
 
 ### TVAE Data
 |            |Predicted 0|Predicted 1|
 -------------|-----------|------------
 |**Actual 0**|1918       |7          |
-|**Actual 0**|54         |21         |
+|**Actual 1**|54         |21         |
 
 ### Gaussian Copula Data
 |            |Predicted 0|Predicted 1|
